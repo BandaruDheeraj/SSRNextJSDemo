@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/gallery",
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  }
+} 
